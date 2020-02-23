@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Handy Doctor</string>
+    <string name="skip">Skip</string>
+    <string name="login">Sign in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account_press">Don\'t have an account ? swipe</string>
+    <string name="here">up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="do_you_forget_password">Do you forget password ?</string>
+    <string name="wait_moment">Please, wait a moment.</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="hospital">Hospital</string>
+    <string name="sign_up_as">Sign up as</string>
+    <string name="sign_up">Sign up</string>
+    <string name="full_name">Full Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="national_id">National Id</string>
+    <string name="confirm">Confirm</string>
+</resources>

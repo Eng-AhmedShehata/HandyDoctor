@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_height="280dp"
+        android:layout_width="300dp"
+        android:id="@+id/slider_fragment_vp_slider"
+        android:layout_centerInParent="true"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/slider_fragment_btn_skip"
+        android:layout_width="@dimen/dim_80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textSize="14sp"
+        android:layout_below="@+id/slider_fragment_vp_slider"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/background_btn"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

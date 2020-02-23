@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skip">تخطي</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="sign_in">دخول</string>
+    <string name="don_t_have_an_account_press">ليس لديك حساب ؟ اسحب</string>
+    <string name="here">للأعلي</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="do_you_forget_password">هل نسيت كلمة المرور ؟</string>
+    <string name="wait_moment">من فضلك, انتظر لحظة..</string>
+    <string name="patient">مريض</string>
+    <string name="doctor">طبيب</string>
+    <string name="hospital">مستشفي</string>
+    <string name="sign_up_as">انشاء حساب كـ</string>
+    <string name="sign_up">انشاء حساب</string>
+    <string name="full_name">الأسم كامل</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="national_id">الرقم القومي</string>
+    <string name="confirm">تأكيد</string>
+</resources>

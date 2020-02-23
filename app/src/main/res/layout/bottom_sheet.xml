@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_fragment_bs_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="50dp"
+    android:backgroundTint="@color/colorBlueDark"
+    android:background="@drawable/background_semi_circle_invert"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dim_16dp"
+        >
+
+        <LinearLayout
+            android:backgroundTint="@color/colorBlueDark"
+            android:id="@+id/login_fragment_tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dim_8dp"
+            android:paddingBottom="@dimen/dim_8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dim_4dp"
+                android:text="@string/don_t_have_an_account_press"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/here"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sign_up_as"
+        android:layout_marginBottom="@dimen/dim_8dp"
+        android:textColor="@color/colorPrimary" />
+
+
+    <Button
+        android:id="@+id/login_fragment_btn_patient"
+        android:drawableStart="@drawable/ic_patient"
+        android:text="@string/patient"
+        style="@style/SheetButtons"
+        />
+
+    <Button
+        android:id="@+id/login_fragment_btn_doctor"
+        android:drawableStart="@drawable/ic_doctor"
+        android:text="@string/doctor"
+        style="@style/SheetButtons"
+        />
+    <Button
+        android:id="@+id/login_fragment_btn_hospital"
+        android:drawableStart="@drawable/ic_hospital"
+        android:text="@string/hospital"
+        style="@style/SheetButtons"
+        />
+
+</LinearLayout>

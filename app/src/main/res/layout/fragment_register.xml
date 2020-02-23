@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login_fragment_ll_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/ll_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_120dp"
+            android:background="@drawable/background_semi_circle"
+            android:backgroundTint="@color/colorBlueDark">
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/sign_up"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_view"
+            android:layout_marginStart="@dimen/dim_40dp"
+            android:layout_marginTop="@dimen/dim_40dp"
+            android:layout_marginEnd="@dimen/dim_40dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout"
+                app:hintEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/ETTheme"
+                    android:drawableStart="@drawable/ic_mail"
+                    android:drawableTint="@color/colorBlueDark"
+                    android:hint="@string/full_name"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:drawablePadding="@dimen/dim_8dp"
+                    android:drawableTint="@color/colorBlueDark"
+                    android:drawableStart="@drawable/ic_birthday"
+                    android:id="@+id/create_account_fragment_tv_birth_date_txt"
+                    android:textSize="@dimen/txt_15sp"
+                    android:gravity="center|start"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textColor="@color/colorBlueDark"
+                    android:text="@string/birthday"
+                    />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                app:hintEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    style="@style/ETTheme"
+                    android:drawableStart="@drawable/ic_national_id"
+                    android:drawableTint="@color/colorBlueDark"
+                    android:hint="@string/national_id"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout"
+                app:hintEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_fragment_et_email"
+                    style="@style/ETTheme"
+                    android:drawableStart="@drawable/ic_mail"
+                    android:drawableTint="@color/colorBlueDark"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayout"
+                app:hintEnabled="true"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/colorBlueDark">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_fragment_et_password"
+                    style="@style/ETTheme"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawableTint="@color/colorBlueDark"
+                    android:hint="@string/password"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_fragment_btn_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dim_16dp"
+            android:background="@drawable/button_backgrond_red_redius"
+            android:drawableStart="@drawable/ic_login"
+            android:drawablePadding="@dimen/dim_8dp"
+            android:drawableTint="@color/colorBlueDark"
+            android:paddingStart="@dimen/dim_60dp"
+            android:paddingEnd="@dimen/dim_60dp"
+            android:text="@string/confirm"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/txt_16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
